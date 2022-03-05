@@ -1,0 +1,512 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Rectitud | Denunciar</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+	<!-- CSS aquí -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/gijgo.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/slicknav.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Inicia pestaña de inicio -->
+    <header>
+        <div class="header-area ">
+            <div class="header-top_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6 ">
+                            <div class="social_media_links">
+                                <a href="https://www.facebook.com/">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="short_contact_list">
+                                <ul>
+                                    <li> <a href="mailto:denuncia@rectitud.com"> <i class="fa fa-envelope"></i> denuncia@rectitud.com</a></li>
+                                    <li><a href="callto"> <i class="fa fa-phone"></i> 777 000 0000</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="index.html">Inicio</a></li>
+                                        <li><a href="Informacion.html">Información</a></li>
+                                        <li><a href="Aviso.html">Privacidad</a></li>
+                                        <li><a href="contact.html">Contacto</a></li>
+                                        <li><a href="ONGs.html">ONGs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="Appointment">
+                                <div class="book_btn d-none d-lg-block">
+                                    <a href="Denuncia.php">Denunciar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Termina pestaña de inicio -->
+
+    <!-- Inicia pestaña denunciar  -->
+    <div class="bradcam_area breadcam_bg bradcam_overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="bradcam_text">
+                        <h3>DENUNCIAR</h3>
+                        <p><a href="index.html">INICIO /</a> DENUNCIAR</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Termina pestaña denunciar  -->
+
+	<!-- Formulario de denuncia -->
+	<section class="sample-text-area">
+		<div class="container box_1170">
+			<form action="#" method="post">
+				<table width="100%">
+					<tr>
+						<td colspan="2">
+							<label><b>Tipo de denuncia</b></label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<table width="100%">
+								<tr>
+									<td>
+										<input type="radio" id="anonima" name="tipoDenuncia" checked><label for="anonima">&nbsp;Denuncia anónima.</label>
+									</td>
+									<td>
+										<input type="radio" id="noAnonima" name="tipoDenuncia"><label for="noAnonima">&nbsp;Denuncia no anónima.</label>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<br><br>
+				<fieldset>
+					<legend>Información general del caso</legend>
+				<table width="100%" class="tabla">
+					<tr>
+						<td>
+							<label for="tipoDenuncia"><b>Situación a denunciar</b></label>
+							<div class="form-select" id="default-select">
+								<select id="tipoDenuncia" name="tipoDenuncia">
+									<option value="1">Dhaka</option>
+									<option value="1">Dilli</option>
+									<option value="1">Newyork</option>
+									<option value="1">Islamabad</option>
+								</select>
+							</div>
+						</td>
+						<td>
+							<label for="fecha"><b>Fecha del suceso</b></label><br>
+							<input type="date" id="fecha" name="fecha">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="asunto"><b>Asunto</b></label>
+							<input type="text" id="asunto" name="asunto" placeholder="Asunto"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<label for="descripcion"><b>Descripción</b></label>
+							<textarea id="descripcion" name="descripcion" class="single-textarea" placeholder="Descripción" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Message'" required></textarea>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<br>
+			<div id="parteDenunciante">
+				<fieldset>
+					<legend>Datos de la parte denunciante</legend>
+					<table width="100%" class="tabla">
+						<tr>
+							<td>
+								<label for="correo"><b>Correo</b></label>
+							<input type="text" id="correo" name="correo" placeholder="Correo"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+							<td>
+								<label for="curp"><b>Correo</b></label>
+							<input type="text" id="curp" name="curp" placeholder="Clave Única de Registro de Población"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="nombreDenunciante"><b>Nombre</b></label>
+							<input type="text" id="nombreDenunciante" name="nombreDenunciante" placeholder="Nombre del denunciante"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+							<td>
+								<label for="primerApellidoDenunciante"><b>Primer apellido</b></label>
+							<input type="text" id="primerApellidoDenunciante" name="primerApellidoDenunciante" placeholder="Primer apellido"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="segundoApellidoDenunciante"><b>Segundo apellido</b></label>
+							<input type="text" id="segundoApellidoDenunciante" name="segundoApellidoDenunciante" placeholder="Segundo apellido"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+							<td>
+								<label><b>Sexo</b></label><br>
+								<input type="radio" id="femeninoDenunciante" name="sexoDenunciante" checked><label for="femeninoDenunciante">&nbsp;Femenino.</label><br>
+								<input type="radio" id="masculinoDenunciante" name="sexoDenunciante"><label for="masculinoDenunciante">&nbsp;Masculino.</label>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="fechaNacimiento"><b>Fecha de nacimiento</b></label><br>
+								<input type="date" id="fechaNacimiento" name="fechaNacimiento">
+							</td>
+							<td>
+								<label for="ocupacionDenunciante"><b>Ocupación</b></label>
+							<input type="text" id="ocupacionDenunciante" name="ocupacionDenunciante" placeholder="Ocupación"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="escolaridad"><b>Escolaridad</b></label>
+								<div class="form-select" id="default-select">
+									<select name="escolaridad">
+										<option value="1">Dhaka</option>
+										<option value="1">Dilli</option>
+										<option value="1">Newyork</option>
+										<option value="1">Islamabad</option>
+									</select>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<br><br>
+			</div>
+				<fieldset>
+					<legend>Datos de la parte denunciada</legend>
+					<table width="100%">
+						<tr>
+							<td>
+								<label for="nombreDenunciado"><b>Nombre</b></label>
+							<input type="text" id="nombreDenunciado" name="nombreDenunciado" placeholder="Nombre del denunciado"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+							<td>
+								<label for="primerApellidoDenunciado"><b>Primer apellido</b></label>
+							<input type="text" id="primerApellidoDenunciado" name="primerApellidoDenunciado" placeholder="Primer apellido"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="segundoApellidoDenunciado"><b>Segundo apellido</b></label>
+							<input type="text" id="segundoApellidoDenunciado" name="segundoApellidoDenunciado" placeholder="Segundo apellido"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+							<td>
+								<label><b>Sexo</b></label><br>
+								<input type="radio" id="femeninoDenunciado" name="sexoDenunciado" checked><label for="femeninoDenunciado">&nbsp;Femenino.</label><br>
+								<input type="radio" id="masculinoDenunciado" name="sexoDenunciado"><label for="masculinoDenunciado">&nbsp;Masculino.</label>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="ocupacionDenunciado"><b>Ocupación</b></label>
+							<input type="text" id="ocupacionDenunciado" name="ocupacionDenunciado" placeholder="Ocupación"
+								onfocus="this.placeholder = ''" required
+								class="single-input">
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<br><br>
+				<fieldset>
+					<legend>Lugar de los hechos</legend>
+					<table width="100%">
+						<tr>
+							<td>
+								<label for="estado"><b>Estado</b></label>
+								<input type="text" id="estado" name="estado" placeholder="Estado"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+							<td>
+								<label for="municipio"><b>Municipio</b></label>
+								<input type="text" id="municipio" name="municipio" placeholder="Municipio"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="colonia"><b>Colonia</b></label>
+								<input type="text" id="colonia" name="colonia" placeholder="Colonia"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+							<td>
+								<label for="calle"><b>Calle</b></label>
+								<input type="text" id="calle" name="calle" placeholder="Calle"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<label for="numeroInterior"><b>Número interior</b></label>
+								<input type="number" id="numeroInterior" name="numeroInterior"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+							<td>
+								<label for="numeroExterior"><b>Número exterior</b></label>
+								<input type="number" id="numeroExterior" name="numeroExterior"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="codigoPostal"><b>Código postal</b></label>
+								<input type="text" id="codigoPostal" name="codigoPostal" placeholder="Código postal"
+									onfocus="this.placeholder = ''" required
+									class="single-input">
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<label for="referencias"><b>Referencias</b></label>
+							<textarea id="referencias" name="referencias" class="single-textarea" placeholder="Referencias" onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Message'" required></textarea>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+				<br><br>
+				<fieldset>
+					<legend>Evidencia</legend>
+								<label><b>Carga de archivos</b></label>
+								<table width="100%">
+									<tr>
+										<td id="archivosIzquierda">
+										</td>
+										<td id="archivosDerecha">
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2">
+											<input type="button" id="cargarArchivo" value="Añadir evidencia">
+										</td>
+									</tr>
+								</table>
+				</fieldset>
+				<br><br><br>
+				<table width="100%">
+					<tr>
+						<td>
+							<a href="#" class="genric-btn success-border">Restablecer formulario</a>
+						</td>
+						<td>
+							<a href="#" class="genric-btn success">Publicar denuncia</a>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</section>
+
+<!-- Inicia el pie de página -->
+<footer class="footer">
+	<div class="footer_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-4 col-md-6 col-lg-4">
+					<div class="footer_widget">
+						<div class="footer_logo">
+							<a href="#">
+								<img src="img/footer_logo.png" alt="">
+							</a>
+						</div>
+						<p>
+								Los datos que usted proporcione serán utilizados por el sitio web y compartidos con otras páginas e instituciones confiables para dar seguimiento a la denuncia aquí presentada. 
+						</p>
+						<div class="socail_links">
+							<ul>
+								<li>
+									<a href="https://www.facebook.com/">
+										<i class="ti-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.twitter.com/">
+										<i class="ti-twitter-alt"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://instagram.com/">
+										<i class="fa fa-instagram"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-xl-2 col-md-6 col-lg-2">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+								General
+						</h3>
+						<ul>
+							<li><a href="Informacion.html">Información</a></li>
+							<li><a href="Aviso.html">Privacidad</a></li>
+							<li><a href="contact.html">Contactar</a></li>
+							<li><a href="Denuncia.php">Denunciar</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-xl-3 col-md-6 col-lg-3">
+					<div class="footer_widget">
+						<h3 class="footer_title">
+								Dirección
+						</h3>
+						<p>
+						   México 95D km 104, Real del Puente, 62790 Mor.<br>
+							+52 777 000 0000 <br>
+						   denuncia@rectitud.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copy-right_text">
+		<div class="container">
+			<div class="footer_border"></div>
+			<div class="row">
+				<div class="col-xl-12">
+					<p class="copy_right text-center">
+						<a> Rectitud | Hecho por el equipo PIPO.</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Termina el pie de página  -->
+
+
+	<!-- JS here -->
+	<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/ajax-form.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/scrollIt.js"></script>
+	<script src="js/jquery.scrollUp.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/nice-select.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/gijgo.min.js"></script>
+
+	<!--Contacto JS-->
+	<script src="js/contact.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="js/jquery.form.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/mail-script.js"></script>
+
+	<script src="js/main.js"></script>
+	<script src="js/form.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+
+        });
+		document.getElementById('parteDenunciante').style.display='none';
+    </script>
+</body>
+</html>
